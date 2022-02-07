@@ -1,0 +1,11 @@
+# Editor
+.idea
+
+# Project
+.env
+node_modules
+dist
+storybook-static
+
+# error logs
+yarn-error.log

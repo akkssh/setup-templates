@@ -1,0 +1,21 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "Project templates",
+  "main": "index.js",
+  "repository": "git@github.com:akkssh/templates.git",
+  "author": "Akashdeep Samantra <akash.samantra19@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json,md,yml,ts,tsx,jsx,css,scss}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.2",
+    "prettier": "^2.5.1"
+  },
+  "lint-staged": {
+    "*.{js,json,md,yml,ts,tsx,jsx,css,scss}": "prettier --write"
+  }
+}
